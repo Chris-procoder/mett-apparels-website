@@ -15,6 +15,7 @@
   
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/advanced-features.css">
 </head>
 <body>
   <!-- Header -->
@@ -65,6 +66,16 @@
           <p>Custom-made suits and dresses crafted to perfection with the finest fabrics</p>
           <a href="#collections" class="btn btn-primary">View Collections</a>
           <a href="#appointment" class="btn btn-outline">Book Appointment</a>
+          <div class="feature-buttons">
+            <button id="virtual-fitting-btn" class="feature-btn">
+              <i class="fas fa-ruler-combined"></i>
+              Virtual Fitting Room
+            </button>
+            <button id="price-calculator-btn" class="feature-btn">
+              <i class="fas fa-calculator"></i>
+              Price Calculator
+            </button>
+          </div>
         </div>
       </div>
       <div class="slide" style="background-image: url('https://placehold.co/1920x1080/333333/d4af37?text=Timeless+Elegance');">
@@ -72,6 +83,38 @@
           <h1>Timeless Elegance</h1>
           <p>Experience the perfect fit with our made-to-measure service</p>
           <a href="#services" class="btn btn-primary">Our Services</a>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('https://placehold.co/1920x1080/2c3e50/d4af37?text=Master+Craftsmanship');">
+        <div class="slide-content">
+          <h1>Master Craftsmanship</h1>
+          <p>Where traditional techniques meet contemporary design in every stitch</p>
+          <a href="#about" class="btn btn-primary">Our Heritage</a>
+          <a href="#collections" class="btn btn-outline">View Portfolio</a>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('https://placehold.co/1920x1080/8b4513/d4af37?text=Luxury+Fabrics');">
+        <div class="slide-content">
+          <h1>Premium Fabrics</h1>
+          <p>Sourced from the world's finest mills for discerning clientele</p>
+          <a href="#price-calculator-btn" class="btn btn-primary">Calculate Price</a>
+          <a href="#virtual-fitting-btn" class="btn btn-outline">Virtual Fitting</a>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('https://placehold.co/1920x1080/4a4a4a/d4af37?text=Personal+Service');">
+        <div class="slide-content">
+          <h1>Personalized Service</h1>
+          <p>Dedicated consultations ensuring every garment reflects your unique style</p>
+          <a href="#contact" class="btn btn-primary">Book Consultation</a>
+          <a href="#testimonials" class="btn btn-outline">Client Stories</a>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('https://placehold.co/1920x1080/1e3a8a/d4af37?text=Wedding+Specialists');">
+        <div class="slide-content">
+          <h1>Wedding Specialists</h1>
+          <p>Creating unforgettable moments with exquisite bridal and formal attire</p>
+          <a href="#collections" class="btn btn-primary">Wedding Collection</a>
+          <a href="#contact" class="btn btn-outline">Schedule Fitting</a>
         </div>
       </div>
     </div>
@@ -174,6 +217,24 @@
           </a>
           <h3>Wedding Attire</h3>
           <p>Perfect for your special day</p>
+        </div>
+        
+        <!-- Advanced Features Section -->
+        <div class="advanced-features" style="margin-top: 60px; text-align: center;">
+          <h3 style="margin-bottom: 30px; color: var(--primary-color);">Try Our Advanced Features</h3>
+          <div class="feature-buttons">
+            <button id="virtual-fitting-btn" class="feature-btn">
+              <i class="fas fa-ruler-combined"></i>
+              Virtual Fitting Room
+            </button>
+            <button id="price-calculator-btn" class="feature-btn">
+              <i class="fas fa-calculator"></i>
+              Get Instant Quote
+            </button>
+          </div>
+          <p style="margin-top: 20px; color: var(--dark-gray); font-size: 0.9rem;">
+            Use our cutting-edge tools to get precise measurements and pricing before your visit
+          </p>
         </div>
       </div>
     </div>
@@ -402,5 +463,8 @@
   <!-- JavaScript -->
   <script src="js/main.js"></script>
   <script src="js/chatbot.js"></script>
+  <script src="js/virtual-fitting.js"></script>
+  <script src="js/price-calculator.js"></script>
+  <script src="js/shopping-cart.js"></script>
 </body>
 </html>
